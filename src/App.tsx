@@ -1,13 +1,15 @@
-import { Provider } from "./components/ui/provider";
+import React from "react";
+import { ChakraProvider, defaultSystem } from "@chakra-ui/react";
 import { Button } from "@chakra-ui/react";
-function App({ Component, pageProps }: { Component: any; pageProps: any }) {
+function App() {
   return (
-    <Provider>
-      <Component {...pageProps} />
-      <Button colorScheme="grean" size="md">
-        Click!
-      </Button>
-    </Provider>
+    <ChakraProvider value={defaultSystem}>
+      <div>
+        <Button colorScheme="teal" size="md">
+          あいうえお
+        </Button>
+      </div>
+    </ChakraProvider>
   );
 }
 
