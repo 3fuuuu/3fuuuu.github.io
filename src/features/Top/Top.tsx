@@ -1,9 +1,20 @@
-import { Image } from "@chakra-ui/react";
+import { Image, Box, Center } from "@chakra-ui/react";
 import icon from "./icon.png";
+import { useWindowSize } from "../../hooks/useWindowSize";
+
 export const Top = () => {
+  const [width, height] = useWindowSize();
   return (
-    <div className="Top">
-      <Image src={icon} alt="icon"></Image>
+    <div>
+      <Box>
+        <Box>
+          <Center h={height / 2}>
+            <Center h={height / 2}>
+              <Image height="100px" width="100px" src={icon} alt="icon" />
+            </Center>
+          </Center>
+        </Box>
+      </Box>
     </div>
   );
 };
