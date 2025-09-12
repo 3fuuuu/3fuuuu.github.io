@@ -1,0 +1,1 @@
+export { MiniMenu } from "./MiniMenu";
