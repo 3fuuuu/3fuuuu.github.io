@@ -2,6 +2,7 @@ import React from "react";
 import { Box, ChakraProvider, defaultSystem } from "@chakra-ui/react";
 import Top from "./features/Top/Top";
 import AboutMe from "./features/AboutMe/AboutMe";
+import { Links } from "./features/Links/Links";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <div>
           <Top />
           <AboutMe />
+          <Links />
         </div>
       </Box>
     </ChakraProvider>
