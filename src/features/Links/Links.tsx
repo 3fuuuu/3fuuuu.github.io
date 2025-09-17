@@ -30,7 +30,7 @@ export const Links = () => {
               <Text>YouTube</Text>
             </LinkButton>
 
-            <LinkButton url="">
+            <LinkButton url="https://github.com/3fuuuu">
               <FaGithub />
               <Text>GitHub</Text>
             </LinkButton>

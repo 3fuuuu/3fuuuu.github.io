@@ -1,4 +1,4 @@
-import { Box, Container, Button, VStack, Link } from "@chakra-ui/react";
+import { Box, Button, VStack, Link } from "@chakra-ui/react";
 import { ReactNode } from "react";
 
 type Props = {

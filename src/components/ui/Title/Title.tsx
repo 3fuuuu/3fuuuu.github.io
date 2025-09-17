@@ -5,12 +5,12 @@ type Props = {
   children: ReactNode;
 };
 export const Title = ({ children }: Props) => {
-  const [width] = useWindowSize();
+  const [] = useWindowSize();
   return (
     <div>
       <Container maxWidth="100ch">
         <Box p={2}>
-          <Text textStyle="3xl" color="#9fe1ad">
+          <Text textStyle="3xl" color="#ffa17c">
             {children}
           </Text>
         </Box>
