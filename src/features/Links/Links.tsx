@@ -14,7 +14,7 @@ export const Links = () => {
         <Title>Link</Title>
 
         <Container maxW="100ch">
-          <HStack>
+          <HStack maxW="100ch">
             <LinkButton url="https://www.nicovideo.jp/user/124854773">
               <SiNiconico />
               <Text>niconico</Text>
