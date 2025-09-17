@@ -10,14 +10,12 @@ type Props = {
 
 export const LinkButton = ({ children, url, onClick }: Props) => {
   return (
-    <Container maxW="100ch">
-      <Box width="100px" height="100px">
-        <Link href={url}>
-          <Button onClick={onClick} bg="#1f202d" p={10}>
-            <VStack>{children}</VStack>
-          </Button>
-        </Link>
-      </Box>
-    </Container>
+    <Box width="ch" height="" p={2}>
+      <Link href={url}>
+        <Button onClick={onClick} bg="#1f202d" p="10">
+          <VStack>{children}</VStack>
+        </Button>
+      </Link>
+    </Box>
   );
 };
