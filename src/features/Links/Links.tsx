@@ -1,20 +1,22 @@
 import { Title } from "../../components/ui/Title";
 import { LinkButton } from "../../components/ui/LinkButton";
-import { Box, Container, HStack, Text } from "@chakra-ui/react";
+import { Box, Container, HStack, Text, Wrap } from "@chakra-ui/react";
 import { SiNiconico } from "react-icons/si";
 import { IconContext } from "react-icons/lib";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { useWindowSize } from "../../hooks/useWindowSize";
 
 export const Links = () => {
+  const [width] = useWindowSize();
   return (
     <Box bg="#1f202d">
       <IconContext.Provider value={{ color: "white", size: "" }}>
         <Title>Link</Title>
 
-        <Container maxW="100ch">
-          <HStack maxW="100ch">
+        <Container maxW={width}>
+          <Wrap maxW={width}>
             <LinkButton url="https://www.nicovideo.jp/user/124854773">
               <SiNiconico />
               <Text>niconico</Text>
@@ -34,7 +36,7 @@ export const Links = () => {
               <FaGithub />
               <Text>GitHub</Text>
             </LinkButton>
-          </HStack>
+          </Wrap>
         </Container>
       </IconContext.Provider>
     </Box>
