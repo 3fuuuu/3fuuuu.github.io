@@ -15,8 +15,8 @@ export const Links = () => {
       <IconContext.Provider value={{ color: "white", size: "" }}>
         <Title>Link</Title>
 
-        <Container maxW={width}>
-          <Wrap maxW={width}>
+        <Container maxW="100ch">
+          <Wrap>
             <LinkButton url="https://www.nicovideo.jp/user/124854773">
               <SiNiconico />
               <Text>niconico</Text>

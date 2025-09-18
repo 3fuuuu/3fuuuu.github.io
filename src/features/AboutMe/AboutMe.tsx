@@ -13,9 +13,9 @@ export const AboutMe = () => {
           本格的なプログラミングは高専に入ってから始めました。現在はロボット研究部でロボコンに関する制御をしながら個人で主にReactを触っています。
           <br />
           <Link href="https://yoinokoe.jp/" color="#9fe1ad">
-            宵音(yoinokoe)
+            ヨイノコエクリエイターズグループ
           </Link>
-          というグループに所属しています。
+          に所属しています。
         </Text>
       </Container>
     </div>
