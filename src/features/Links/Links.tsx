@@ -27,7 +27,7 @@ export const Links = () => {
               <Text>Twitter</Text>
             </LinkButton>
 
-            <LinkButton url="">
+            <LinkButton url="https://www.youtube.com/channel/UCGhqMirRTd_bcGnxtzQjTgw">
               <FaYoutube />
               <Text>YouTube</Text>
             </LinkButton>
