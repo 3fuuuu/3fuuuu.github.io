@@ -3,9 +3,7 @@ import { LinkButton } from "../../components/ui/LinkButton";
 import { Box, Container, HStack, Text, Wrap } from "@chakra-ui/react";
 import { SiNiconico } from "react-icons/si";
 import { IconContext } from "react-icons/lib";
-import { FaTwitter } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaTwitter, FaYoutube, FaGithub } from "react-icons/fa";
 import { useWindowSize } from "../../hooks/useWindowSize";
 
 export const Links = () => {
