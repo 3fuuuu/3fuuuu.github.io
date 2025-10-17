@@ -1,4 +1,4 @@
-import { Title } from "@/components/ui/Title";
+import { Title } from "../../components/ui/Title/index";
 import { Box, Container, Text } from "@chakra-ui/react";
 
 export const MoreAbout = () => {

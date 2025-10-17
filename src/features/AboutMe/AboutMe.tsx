@@ -1,5 +1,7 @@
 import { Title } from "../../components/ui/Title";
-import { Text, Container, Link } from "@chakra-ui/react";
+import { Text, Container } from "@chakra-ui/react";
+import { Link } from "../../components/ui/Link";
+
 export const AboutMe = () => {
   return (
     <div>
@@ -12,12 +14,16 @@ export const AboutMe = () => {
           <br />
           本格的なプログラミングは高専に入ってから始めました。高専ではロボット研究部でロボコンに関する制御をしています。また、webに興味があります。
           <br />
-          <Link href="https://yoinokoe.jp/" color="#9fe1ad">
+          <Link color="#9fe1ad" to="https://yoinokoe.jp/">
             ヨイノコエクリエイターズグループ
           </Link>
           に所属しています。
         </Text>
-        <Text>More about→</Text>
+        <Container maxW="100ch" p={4}>
+          <Link color="#9fe1ad" to="/more">
+            More about→
+          </Link>
+        </Container>
       </Container>
     </div>
   );
