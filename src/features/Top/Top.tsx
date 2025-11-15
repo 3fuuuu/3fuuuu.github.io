@@ -1,6 +1,7 @@
-import { Image, Box, VStack, Text } from "@chakra-ui/react";
+import { Image, Box, VStack, Text, Container, Wrap } from "@chakra-ui/react";
 import icon from "./icon.png";
 import { useWindowSize } from "../../hooks/useWindowSize";
+import { SwitchButton } from "../../components/SwitchButton";
 
 export const Top = () => {
   const [, height] = useWindowSize();
@@ -18,6 +19,13 @@ export const Top = () => {
           </Text>
         </VStack>
       </Box>
+      <Container maxW="100ch" p={4}>
+        <Wrap>
+          <SwitchButton url="/">Top</SwitchButton>
+          <SwitchButton url="/articles">Articles</SwitchButton>
+          <SwitchButton url="/more">More about me</SwitchButton>
+        </Wrap>
+      </Container>
     </div>
   );
 };
