@@ -6,13 +6,7 @@ function TopPage() {
   return (
     <>
       <Box bg="#1f202d">
-        <nav>
-          <ul>
-            <li>
-              <Top />
-            </li>
-          </ul>
-        </nav>
+        <Top />
 
         <Outlet />
       </Box>
