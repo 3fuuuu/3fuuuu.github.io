@@ -21,7 +21,7 @@ export const AboutMe = () => {
         </Text>
         <Container maxW="100ch" p={4}>
           <Link color="#9fe1ad" to="/more">
-            More about→
+            More about me→
           </Link>
         </Container>
       </Container>

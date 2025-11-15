@@ -1,6 +1,6 @@
-import { Title } from "../../components/ui/Title";
-import { LinkButton } from "../../components/ui/LinkButton";
-import { Box, Container, HStack, Text, Wrap } from "@chakra-ui/react";
+import { Title } from "../../components/Title";
+import { LinkButton } from "../../components/LinkButton";
+import { Box, Container, Text, Wrap } from "@chakra-ui/react";
 import { SiNiconico } from "react-icons/si";
 import { IconContext } from "react-icons/lib";
 import { FaTwitter, FaYoutube, FaGithub } from "react-icons/fa";

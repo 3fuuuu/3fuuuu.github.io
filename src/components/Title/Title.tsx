@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { Text, Separator, Box, Container } from "@chakra-ui/react";
-import { useWindowSize } from "../../../hooks/useWindowSize";
+import { useWindowSize } from "../../hooks/useWindowSize";
 type Props = {
   children: ReactNode;
 };
