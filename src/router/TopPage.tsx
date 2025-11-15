@@ -7,7 +7,6 @@ function TopPage() {
     <>
       <Box bg="#1f202d">
         <Top />
-
         <Outlet />
       </Box>
     </>
