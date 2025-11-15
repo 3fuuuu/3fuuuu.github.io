@@ -1,6 +1,6 @@
-import { Title } from "../../components/ui/Title";
+import { Title } from "../../components/Title";
 import { Text, Container } from "@chakra-ui/react";
-import { Link } from "../../components/ui/Link";
+import { Link } from "../../components/Link";
 
 export const AboutMe = () => {
   return (

@@ -1,5 +1,5 @@
-import { SkillBox } from "../../components/ui/SkillBox";
-import { Title } from "../../components/ui/Title";
+import { SkillBox } from "../../components/SkillBox";
+import { Title } from "../../components/Title";
 
 export const Skills = () => {
   return (
