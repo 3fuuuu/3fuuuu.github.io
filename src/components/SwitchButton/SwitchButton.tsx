@@ -1,6 +1,6 @@
 import { Button } from "@chakra-ui/react";
 import { ReactNode } from "react";
-import { Link } from "@chakra-ui/react";
+import { Link } from "../Link";
 
 type Props = {
   children: ReactNode;
@@ -10,7 +10,7 @@ type Props = {
 export const SwitchButton = ({ children, url }: Props) => {
   return (
     <div>
-      <Link href={url}>
+      <Link to={url}>
         <Button
           rounded="full"
           bg="#9fe1ad"
