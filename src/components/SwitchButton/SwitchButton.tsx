@@ -13,7 +13,7 @@ export const SwitchButton = ({ children, url }: Props) => {
   const isActive = location.pathname === url;
   return (
     <div>
-      <Link to={url}>
+      <Link to={url} _hover={{ textDecoration: "none" }}>
         <Button
           rounded="full"
           bg={isActive ? "#9fe1ad" : "#1f202d"}

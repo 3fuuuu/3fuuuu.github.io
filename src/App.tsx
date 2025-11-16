@@ -1,16 +1,9 @@
-import React from "react";
-import { Box, ChakraProvider, defaultSystem } from "@chakra-ui/react";
-
-import {
-  BrowserRouter,
-  createBrowserRouter,
-  Route,
-  RouterProvider,
-  Routes,
-} from "react-router-dom";
+import { ChakraProvider, defaultSystem } from "@chakra-ui/react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Main from "./router/Main";
 import More from "./router/More";
 import TopPage from "./router/TopPage";
+import Articles from "./router/Articles";
 
 function App() {
   const router = createBrowserRouter([
@@ -19,6 +12,7 @@ function App() {
       children: [
         { path: "/", element: <Main /> },
         { path: "/more", element: <More /> },
+        { path: "/articles", element: <Articles /> },
       ],
     },
   ]);
