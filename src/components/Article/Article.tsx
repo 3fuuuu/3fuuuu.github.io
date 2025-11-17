@@ -20,7 +20,6 @@ export const Article = ({ url, icon, title, date, website }: Props) => {
         rounded="xl"
         padding="5ch 4ch"
         _hover={{ transform: "scale(1.05)" }}
-        maxW="100ch"
         w="50ch"
         h="12ch"
       >
