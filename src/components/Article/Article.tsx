@@ -1,7 +1,6 @@
 import { Box, Button, Container, HStack, Text, VStack } from "@chakra-ui/react";
 import { ReactNode } from "react";
 import { Link } from "../Link";
-import { useWindowSize } from "../../hooks/useWindowSize";
 
 type Props = {
   icon: ReactNode;
@@ -12,7 +11,6 @@ type Props = {
 };
 
 export const Article = ({ url, icon, title, date, website }: Props) => {
-  const [weight, height] = useWindowSize();
   return (
     <Container maxW="100ch">
       <Link to={url} _hover={{ textDecoration: "none" }}>
@@ -23,7 +21,8 @@ export const Article = ({ url, icon, title, date, website }: Props) => {
           rounded="xl"
           padding="5ch 4ch"
           _hover={{ transform: "scale(1.05)" }}
-          maxW={weight}
+          maxW="100%"
+          w="50ch"
           h="12ch"
         >
           <VStack>
