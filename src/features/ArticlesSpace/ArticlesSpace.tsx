@@ -7,8 +7,8 @@ export const ArticlesSpace = () => {
   return (
     <div>
       <Title>Articles</Title>
-      <Container p={2} maxW="100ch">
-        <HStack>
+      <Container p={4} maxW="100ch">
+        <HStack justify="center">
           <Wrap>
             <Article
               url="https://zenn.dev/3fuuuu/articles/b164f90382bc3d"
