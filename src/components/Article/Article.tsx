@@ -12,38 +12,40 @@ type Props = {
 
 export const Article = ({ url, icon, title, date, website }: Props) => {
   return (
-    <Link to={url} _hover={{ textDecoration: "none" }}>
-      <Button
-        variant="outline"
-        bg="#1f202d"
-        borderColor="#fff"
-        rounded="xl"
-        padding="5ch 4ch"
-        _hover={{ transform: "scale(1.05)" }}
-        w="50ch"
-        h="12ch"
-      >
-        <VStack>
-          <Text
-            fontSize="2xl"
-            color="#9fe1ad"
-            wordBreak="break-word"
-            whiteSpace="normal"
-            lineHeight={1.1}
-          >
-            {title}
-          </Text>
-          <HStack>
-            <Text fontSize="1xl" color="#9fe1ad">
-              {date}
+    <Box maxW="100ch">
+      <Link to={url} _hover={{ textDecoration: "none" }}>
+        <Button
+          variant="outline"
+          bg="#1f202d"
+          borderColor="#fff"
+          rounded="xl"
+          padding="5ch 4ch"
+          _hover={{ transform: "scale(1.05)" }}
+          w="50ch"
+          h="12ch"
+        >
+          <VStack>
+            <Text
+              fontSize="2xl"
+              color="#9fe1ad"
+              wordBreak="break-word"
+              whiteSpace="normal"
+              lineHeight={1.1}
+            >
+              {title}
             </Text>
-            <Text fontSize="1xl" color="#9fe1ad">
-              {website}
-            </Text>
-            <a>{icon}</a>
-          </HStack>
-        </VStack>
-      </Button>
-    </Link>
+            <HStack>
+              <Text fontSize="1xl" color="#9fe1ad">
+                {date}
+              </Text>
+              <Text fontSize="1xl" color="#9fe1ad">
+                {website}
+              </Text>
+              <a>{icon}</a>
+            </HStack>
+          </VStack>
+        </Button>
+      </Link>
+    </Box>
   );
 };
