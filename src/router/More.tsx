@@ -6,8 +6,9 @@ function More() {
   const [, height] = useWindowSize();
   return (
     <>
-      <Box bg="#1f202d" h={height}>
+      <Box bg="#1f202d">
         <MoreAbout />
+        <Box h="5ch" />
       </Box>
     </>
   );

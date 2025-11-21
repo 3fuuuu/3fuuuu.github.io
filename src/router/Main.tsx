@@ -8,6 +8,7 @@ function Main() {
       <Box bg="#1f202d">
         <AboutMe />
         <Links />
+        <Box h="5ch" />
       </Box>
     </>
   );

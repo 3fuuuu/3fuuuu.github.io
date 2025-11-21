@@ -11,10 +11,10 @@ export const ArticlesSpace = () => {
         <HStack justify="center">
           <Wrap>
             <Article
-              url="https://zenn.dev/3fuuuu/articles/b164f90382bc3d"
+              url="https://zenn.dev/3fuuuu/articles/3f416a0d809bf8"
               website="zenn.dev"
-              title="Raspbrry pi pico同士でUART(PlatformIO)"
-              date="2025/11/4"
+              title="React Router v7での<Outlet />の使い方"
+              date="2025/11/21"
               icon={<Zenn />}
             />
             <Article
@@ -22,6 +22,13 @@ export const ArticlesSpace = () => {
               website="zenn.dev"
               title="dotfilesの作り方(Arch Linux+Sway)"
               date="2025/11/11"
+              icon={<Zenn />}
+            />
+            <Article
+              url="https://zenn.dev/3fuuuu/articles/b164f90382bc3d"
+              website="zenn.dev"
+              title="Raspbrry pi pico同士でUART(PlatformIO)"
+              date="2025/11/4"
               icon={<Zenn />}
             />
           </Wrap>

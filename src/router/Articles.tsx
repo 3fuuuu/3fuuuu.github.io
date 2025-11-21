@@ -6,6 +6,7 @@ function Articles() {
     <>
       <Box bg="#1f202d">
         <ArticlesSpace />
+        <Box h="5ch" />
       </Box>
     </>
   );
