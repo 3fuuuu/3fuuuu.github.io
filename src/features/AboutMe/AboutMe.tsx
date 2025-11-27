@@ -20,7 +20,7 @@ export const AboutMe = () => {
           に所属しています。
         </Text>
         <Container maxW="100ch" p={4}>
-          <Link color="#9fe1ad" to="/more">
+          <Link color="#9fe1ad" to="/more" target="_blank">
             More about me→
           </Link>
         </Container>

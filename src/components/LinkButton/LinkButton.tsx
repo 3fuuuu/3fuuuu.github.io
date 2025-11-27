@@ -1,5 +1,6 @@
-import { Box, Button, VStack, Link } from "@chakra-ui/react";
+import { Box, Button, VStack } from "@chakra-ui/react";
 import { ReactNode } from "react";
+import { Link } from "../Link/Link";
 
 type Props = {
   children: ReactNode;
@@ -11,7 +12,7 @@ type Props = {
 export const LinkButton = ({ children, url, onClick }: Props) => {
   return (
     <Box width="ch" height="" p={2} maxW="100ch">
-      <Link href={url}>
+      <Link to={url} target="_blank">
         <Button onClick={onClick} bg="#1f202d" p="10">
           <VStack>{children}</VStack>
         </Button>

@@ -1,4 +1,4 @@
-import { Box, Button, Container, HStack, Text, VStack } from "@chakra-ui/react";
+import { Box, Button, HStack, Text, VStack } from "@chakra-ui/react";
 import { ReactNode } from "react";
 import { Link } from "../Link";
 
@@ -13,7 +13,7 @@ type Props = {
 export const Article = ({ url, icon, title, date, website }: Props) => {
   return (
     <Box maxW="100ch">
-      <Link to={url} _hover={{ textDecoration: "none" }}>
+      <Link to={url} _hover={{ textDecoration: "none" }} target="_blank">
         <Button
           variant="outline"
           bg="#1f202d"
