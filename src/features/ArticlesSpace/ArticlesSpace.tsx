@@ -7,9 +7,9 @@ export const ArticlesSpace = () => {
   return (
     <div>
       <Title>Articles</Title>
-      <Container p={4} maxW="100ch">
+      <Container maxW="100ch">
         <HStack justify="center">
-          <Wrap>
+          <Wrap p={4}>
             <Article
               url="https://zenn.dev/3fuuuu/articles/3f416a0d809bf8"
               website="zenn.dev"
