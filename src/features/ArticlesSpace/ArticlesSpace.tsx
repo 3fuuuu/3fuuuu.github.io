@@ -9,7 +9,7 @@ export const ArticlesSpace = () => {
       <Title>Articles</Title>
       <Container maxW="100ch">
         <HStack justify="center">
-          <Wrap p={2}>
+          <Wrap p={4}>
             <Article
               url="https://zenn.dev/3fuuuu/articles/3f416a0d809bf8"
               website="zenn.dev"

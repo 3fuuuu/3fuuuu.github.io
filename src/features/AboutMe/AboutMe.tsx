@@ -14,13 +14,13 @@ export const AboutMe = () => {
           <br />
           本格的なプログラミングは高専に入ってから始めました。ロボット研究部でロボコンに関する制御をしています。webが好きです。ラズピコも好きです。
           <br />
-          <Link color="#9fe1ad" to="https://yoinokoe.jp/">
+          <Link color="#9fe1ad" to="https://yoinokoe.jp/" target="_blank">
             ヨイノコエクリエイターズグループ
           </Link>
           に所属しています。
         </Text>
         <Container maxW="100ch" p={4}>
-          <Link color="#9fe1ad" to="/more" target="_blank">
+          <Link color="#9fe1ad" to="/more">
             More about me→
           </Link>
         </Container>
